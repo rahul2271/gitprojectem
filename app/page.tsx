@@ -181,7 +181,7 @@ export default function LandingPage() {
         {/* Hero Section */}
         <section className="relative w-full h-screen overflow-hidden">
   {/* Divine background */}
-  <div className="absolute inset-0 bg-[url('/dhanvantari-ji.png')] bg-cover bg-center scale-110 blur-sm brightness-0" />
+  <div className="absolute inset-0 bg-[url('/dhanvantari-ji.png')] bg-cover bg-center scale-110 blur-sm brightness-50" />
 
   {/* Golden aura glow */}
   <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,215,130,0.25),rgba(0,0,0,0.7))] animate-pulse-slow" />

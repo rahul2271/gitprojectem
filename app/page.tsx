@@ -192,13 +192,13 @@ export default function LandingPage() {
   {/* Content */}
   <div className="relative z-10 flex h-full items-center justify-center">
     <div className="container px-4 md:px-6 mx-auto text-center">
-      <div className="flex flex-col items-center space-y-6 max-w-3xl mx-auto">
+      <div className="flex flex-col items-center space-y-6 max-w-7xl mx-auto">
         
-        <h1 className="text-4xl font-serif tracking-wide sm:text-5xl md:text-6xl text-white drop-shadow-[0_2px_10px_rgba(255,215,150,0.25)]">
+        <h1 className="text-5xl font-serif tracking-wide sm:text-5xl md:text-6xl text-white drop-shadow-[0_2px_10px_rgba(255,215,150,0.25)]">
           Ayurveda, Authenticated.
         </h1>
 
-        <p className="text-white/85 md:text-xl leading-relaxed">
+        <p className="text-white  md:text-2xl leading-relaxed">
           The world's first community platform dedicated to connecting verified Ayurvedic practitioners with wellness seekers.
         </p>
 

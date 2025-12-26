@@ -134,7 +134,7 @@ export default function LandingPage() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Added welcome modal that appears on page load */}
-      <Dialog open={showWelcomeModal} onOpenChange={setShowWelcomeModal}>
+      {/* <Dialog open={showWelcomeModal} onOpenChange={setShowWelcomeModal}>
         <DialogContent className="sm:max-w-md">
           <DialogHeader>
             <DialogTitle className="text-2xl font-serif text-center">Welcome to Dhanvantariji</DialogTitle>
@@ -172,58 +172,16 @@ export default function LandingPage() {
             </p>
           </div>
         </DialogContent>
-      </Dialog>
+      </Dialog> */}
 
       {/* Navigation */}
-      <header className="px-4 lg:px-6 h-16 flex items-center border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50">
-        <div className="flex items-center gap-2 font-serif text-xl font-bold text-primary">
-          <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-primary-foreground">
-            D
-          </div>
-          Dhanvantariji
-        </div>
-        <nav className="ml-auto flex gap-4 sm:gap-6">
-          {/* Updated navigation to show gated message on click */}
-          <button
-            onClick={() => setShowWelcomeModal(true)}
-            className="text-sm font-medium hover:text-primary transition-colors"
-          >
-            Blogs
-          </button>
-          <button
-            onClick={() => setShowWelcomeModal(true)}
-            className="text-sm font-medium hover:text-primary transition-colors"
-          >
-            Q&A
-          </button>
-          <button
-            onClick={() => setShowWelcomeModal(true)}
-            className="text-sm font-medium hover:text-primary transition-colors"
-          >
-            Doctors
-          </button>
-          <button
-            onClick={() => setShowWelcomeModal(true)}
-            className="text-sm font-medium hover:text-primary transition-colors"
-          >
-            Messages
-          </button>
-          <div className="flex items-center gap-2 border-l pl-4 ml-2">
-            <Button variant="ghost" size="sm" asChild>
-              <Link href="/auth/login">Login</Link>
-            </Button>
-            <Button size="sm" asChild>
-              <Link href="/auth/signup">Sign Up</Link>
-            </Button>
-          </div>
-        </nav>
-      </header>
+
 
       <main className="flex-1">
         {/* Hero Section */}
         <section className="relative w-full h-screen overflow-hidden">
   {/* Divine background */}
-  <div className="absolute inset-0 bg-[url('/dhanvantarijibanner.png')] bg-cover bg-center scale-110 blur-sm brightness-90" />
+  <div className="absolute inset-0 bg-[url('/dhanvantarijibanner.png')] bg-cover bg-center scale-110 blur-sm brightness-0" />
 
   {/* Golden aura glow */}
   <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,215,130,0.25),rgba(0,0,0,0.7))] animate-pulse-slow" />
@@ -390,7 +348,7 @@ export default function LandingPage() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t py-12 bg-muted/30">
+      {/* <footer className="border-t py-12 bg-muted/30">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 mb-12">
             <div className="col-span-2 lg:col-span-2">
@@ -536,7 +494,7 @@ export default function LandingPage() {
             </div>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </div>
   )
 }

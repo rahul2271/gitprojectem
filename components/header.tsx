@@ -24,6 +24,7 @@ export default function Header() {
       <nav className="ml-auto flex gap-4 sm:gap-6 items-center">
         <button
           onClick={() => router.push("/blogs")}
+          // onClick={() => setShowWelcomeModal(true)}
           className="text-sm font-medium hover:text-primary transition-colors"
         >
           Blogs

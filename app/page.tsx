@@ -182,7 +182,41 @@ export default function LandingPage() {
         {/* Hero Section */}
         <section className="relative w-full h-screen overflow-hidden">
   {/* Divine background */}
+<<<<<<< HEAD
   <HeroSection/>
+=======
+  <div className="absolute inset-0 bg-[url('/dhanvantari-ji.png')] bg-cover bg-center scale-110 blur-sm brightness-70" />
+
+  {/* Golden aura glow */}
+  <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,215,130,0.25),rgba(0,0,0,0.7))] animate-pulse-slow" />
+
+  {/* Dark vignette */}
+  <div className="absolute inset-0 bg-black/40" />
+
+  {/* Content */}
+  <div className="relative z-10 flex h-full items-center justify-center">
+    <div className="container px-4 md:px-6 mx-auto text-center">
+      <div className="flex flex-col items-center space-y-6 max-w-7xl mx-auto">
+        
+        <h1 className="text-5xl font-serif tracking-wide sm:text-5xl md:text-6xl text-white drop-shadow-[0_2px_10px_rgba(255,215,150,0.25)]">
+          Ayurveda, Authenticated.
+        </h1>
+
+        <p className="text-white font-light md:text-2xl leading-relaxed">
+          <span class="font-bold">The world's first community</span> platform dedicated to connecting verified Ayurvedic practitioners with wellness seekers.
+        </p>
+
+        <Button
+          size="lg"
+          className="rounded-full px-10 h-12 bg-amber-100 text-black hover:bg-amber-200 shadow-lg shadow-amber-300/30"
+          onClick={() => setShowWelcomeModal(true)}
+        >
+          Begin Your Healing
+        </Button>
+      </div>
+    </div>
+  </div>
+>>>>>>> a6d237ed7817b57d71de36cf4171a17d4e3419d8
 </section>
 
 

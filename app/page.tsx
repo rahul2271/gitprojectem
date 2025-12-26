@@ -194,7 +194,7 @@ export default function LandingPage() {
     <div className="container px-4 md:px-6 mx-auto text-center">
       <div className="flex flex-col items-center space-y-6 max-w-7xl mx-auto">
         
-        <h1 className="text-5xl font-serif tracking-wide sm:text-5xl md:text-6xl text-white drop-shadow-[0_2px_10px_rgba(255,215,150,0.25)]">
+        <h1 className="text-5xl font-bold font-serif tracking-wide sm:text-5xl md:text-6xl text-white drop-shadow-[0_2px_10px_rgba(255,215,150,0.25)]">
           Ayurveda, Authenticated.
         </h1>
 

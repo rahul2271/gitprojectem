@@ -199,8 +199,7 @@ export default function LandingPage() {
         </h1>
 
         <p className="text-white/85 md:text-xl leading-relaxed">
-          Rooted in the timeless wisdom of Dhanvantari,  
-          guided by verified practitioners for your true healing journey.
+          The world's first community platform dedicated to connecting verified Ayurvedic practitioners with wellness seekers.
         </p>
 
         <Button

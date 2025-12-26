@@ -1,6 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
+import HeroSection from "@/components/herosection"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import {
   Heart,
@@ -181,38 +182,7 @@ export default function LandingPage() {
         {/* Hero Section */}
         <section className="relative w-full h-screen overflow-hidden">
   {/* Divine background */}
-  <div className="absolute inset-0 bg-[url('/dhanvantarijibanner.png')] bg-cover bg-center scale-110 blur-sm brightness-0" />
-
-  {/* Golden aura glow */}
-  <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,215,130,0.25),rgba(0,0,0,0.7))] animate-pulse-slow" />
-
-  {/* Dark vignette */}
-  <div className="absolute inset-0 bg-black/40" />
-
-  {/* Content */}
-  <div className="relative z-10 flex h-full items-center justify-center">
-    <div className="container px-4 md:px-6 mx-auto text-center">
-      <div className="flex flex-col items-center space-y-6 max-w-3xl mx-auto">
-        
-        <h1 className="text-4xl font-serif tracking-wide sm:text-5xl md:text-6xl text-white drop-shadow-[0_2px_10px_rgba(255,215,150,0.25)]">
-          Ayurveda, Authenticated.
-        </h1>
-
-        <p className="text-white/85 md:text-xl leading-relaxed">
-          Rooted in the timeless wisdom of Dhanvantari,  
-          guided by verified practitioners for your true healing journey.
-        </p>
-
-        <Button
-          size="lg"
-          className="rounded-full px-10 h-12 bg-amber-100 text-black hover:bg-amber-200 shadow-lg shadow-amber-300/30"
-          onClick={() => setShowWelcomeModal(true)}
-        >
-          Begin Your Healing
-        </Button>
-      </div>
-    </div>
-  </div>
+  <HeroSection/>
 </section>
 
 

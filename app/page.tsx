@@ -198,8 +198,8 @@ export default function LandingPage() {
           Ayurveda, Authenticated.
         </h1>
 
-        <p className="text-white  md:text-2xl leading-relaxed">
-          The world's first community platform dedicated to connecting verified Ayurvedic practitioners with wellness seekers.
+        <p className="text-white font-light md:text-2xl leading-relaxed">
+          <span class="font-bold">The world's first community</span> platform dedicated to connecting verified Ayurvedic practitioners with wellness seekers.
         </p>
 
         <Button
